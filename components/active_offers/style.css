@@ -1,0 +1,247 @@
+/*Sub Nav Slider*/
+#subnav-slide-btns{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+#subnav-slide-btns .list-btn{
+    width: 60px;
+}
+#subnav-slide-btns .owl-carousel{
+    position: relative;
+    width: calc(100% - 60px);
+}
+/* Sub Heading Buttons*/
+#create_offer .bordered_nav .orange-btn{
+    background-color:  #F79C1A;
+}
+#create_offer .bordered_nav .pink-btn{
+    background-color:#FACEFF;
+}
+#create_offer .bordered_nav .yellow-btn{
+    background-color: #FFF000;
+}
+/*-------------Offer Lists-------------*/
+#list-data .image_container,
+#daily_active_offers .image_container{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+#list-data .image_container .img,
+#daily_active_offers .image_container .img{
+    width: 61px;
+    height: 65px;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+}
+#daily_active_offers .hr_line{
+    border-top: 1.5px solid black;
+    width: 80%;
+    margin: auto;
+}
+.list-offers .list-links{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#list-data .left_lists{
+    padding-right: .4rem;
+}
+#list-data .right_lists{
+    padding-left: .4rem;
+}
+#list-data .hr_line{
+    width: 80%;
+    border-top: 1.5px solid black;
+    margin: auto;
+}
+.list-offers .list-links .list-links-item{
+    border: 1.5px solid black;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px 8px 6px 10px;
+    margin-bottom: .4rem;
+    transition: all .5s ease;
+}
+.list-offers .list-links .list-links-item a{
+    text-decoration: none;
+    color: black;
+    transition: all .5s ease;
+}
+.list-offers .list-links .selected,
+.list-offers .list-links .list-links-item:hover{
+    background:rgb(0, 123, 255);
+}
+.list-offers .list-links .selected > a{
+    color: #fff;
+}
+.list-offers .list-links .list-links-item:hover a{
+    color: #fff;
+}
+.list-offers .list-links .right_lists,
+.list-offers .list-links .left_active{
+    display: none;
+}
+.list-offers .list-links .right_active{
+    display: block;
+}
+
+/*Middle Content*/
+#activate-offer #activate-toggle,
+#activate-offer .activate-toggle{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #ffa64d;
+    border-radius: 5px;
+    background: #ffd9b3;
+    padding: .1rem .6rem;
+}
+#activate-offer #activate-toggle .bold-text,
+#activate-offer .activate-toggle .bold-text,
+#activate-offer .activate-toggle-pink .bold-text,
+#activate-offer .activate-toggle-yellow .bold-text{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#activate-offer #activate-toggle .offer-amount{
+    font-style: italic;
+    font-style: 14px;
+    font-weight: 500;
+}
+#activate-offer .activate-toggle .btns-container,
+#activate-offer .activate-toggle-pink .btns-container,
+#activate-offer .activate-toggle-yellow .btns-container{
+    display: flex;
+    align-items: center;
+}
+#activate-offer .activate-toggle .btns-container .activate-btn,
+#activate-offer .activate-toggle-pink .btns-container .activate-btn,
+#activate-offer .activate-toggle-yellow .btns-container .activate-btn{
+    border: none;
+    outline: none;
+    background: green;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    padding: 0  8px 2px 8px;
+}
+#activate-offer .activate-toggle .btns-container .deactivet-btn,
+#activate-offer .activate-toggle-pink .btns-container .deactivet-btn,
+#activate-offer .activate-toggle-yellow .btns-container .deactivet-btn{
+    border: none;
+    outline: none;
+    background: red;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    padding: 0  8px 2px 8px;
+    display: none;
+}
+#activate-offer .activate-toggle .btns-container .eye-btn,
+#activate-offer .activate-toggle-pink .btns-container .eye-btn,
+#activate-offer .activate-toggle-yellow .btns-container .eye-btn{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #ffc107;
+}
+#activate-offer .activate-toggle .btns-container .eye-deactive,
+#activate-offer .activate-toggle-pink .btns-container .eye-deactive,
+#activate-offer .activate-toggle-yellow .btns-container .eye-deactive{
+    background: #fff;
+}
+#activate-offer .activate-toggle .btns-container .eye-btn .eye-on,
+#activate-offer .activate-toggle-pink .btns-container .eye-btn .eye-on,
+#activate-offer .activate-toggle-yellow .btns-container .eye-btn .eye-on{
+    font-size: 1.28rem;
+    color: black;
+}
+#activate-offer .activate-toggle .btns-container .eye-btn .eye-on-deactive,
+#activate-offer .activate-toggle-pink .btns-container .eye-btn .eye-on-deactive,
+#activate-offer .activate-toggle-yellow .btns-container .eye-btn .eye-on-deactive{
+    display: none;
+}
+#activate-offer .activate-toggle .btns-container .eye-btn .eye-off,
+#activate-offer .activate-toggle-pink .btns-container .eye-btn .eye-off,
+#activate-offer .activate-toggle-yellow .btns-container .eye-btn .eye-off{
+    color: #ccc;
+    font-size: 1.28rem;
+    display: none;
+}
+#activate-offer .activate-toggle .btns-container .eye-btn .eye-off-active,
+#activate-offer .activate-toggle-pink .btns-container .eye-btn .eye-off-active,
+#activate-offer .activate-toggle-yellow .btns-container .eye-btn .eye-off-active{
+    display: block;
+}
+#activate-offer #inputs-wrapper{
+    width: 100%;
+    margin: auto;
+    margin-top: .6rem;
+    padding: .2rem 0 .2rem .1rem;
+    position: relative;
+}
+#activate-offer #inputs-wrapper .layer{
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: 0;
+    right: -6px;
+    border-radius: 5px;
+}
+#activate-offer #inputs-wrapper .inputs-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .4rem;
+    width: 100%;
+}
+#activate-offer #inputs-wrapper .inputs-row .inputs-label{
+    width: 47%;
+    font-weight: 600;
+}
+#activate-offer #inputs-wrapper .inputs-row .inputs-container{
+    width: 53%;
+}
+#activate-offer #inputs-wrapper .inputs-row .inputs-container .price-input{
+    text-align: center;
+    font-weight: bold;
+}
+#activate-offer #inputs-wrapper .inputs-row .inputs-container .form-control{
+    width: 100%;
+}
+#activate-offer #inputs-wrapper .inputs-row .date input{
+    font-style: italic;
+    font-weight: 600;
+}
+/*Just 4 Today Offer*/
+#activate-offer .activate-toggle-pink{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #e573f1;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    background: #FACEFF;
+    padding: .1rem .6rem; 
+}
+/*# HRs Offer*/
+#activate-offer .activate-toggle-yellow{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #ffc107;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    background: yellow;
+    padding: .1rem .6rem; 
+}
