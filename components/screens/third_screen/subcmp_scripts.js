@@ -86,7 +86,7 @@ function tableRow() {
   rows.forEach(row => {
     row.addEventListener('click', (e) => {
       let currentRow = e.currentTarget;
-      currentRow.classList.toggle('show_rows')
+      currentRow.classList.add('show_rows')
     })
   })
 }

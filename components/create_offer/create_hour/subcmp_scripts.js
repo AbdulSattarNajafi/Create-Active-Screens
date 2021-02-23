@@ -20,4 +20,15 @@ load_module('create-add-images','create_offer/create_offer/mod_createoffer_image
       $('#create_filldata .create_offer').css('border','none');
     }
   }); //
-  
+//Items Fill Data
+function itesmRow() {
+  let inputs = document.querySelectorAll('.input');
+  inputs.forEach(input => {
+    input.addEventListener('click', (e) => {
+      let currentLabel = e.currentTarget.parentElement.childNodes;
+        currentLabel[3].style.transform = 'translateY(16px)';
+        currentLabel[3].style.fontSize = '10px';
+    })
+  })
+};
+itesmRow();

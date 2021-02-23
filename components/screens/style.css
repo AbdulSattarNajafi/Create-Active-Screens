@@ -5,8 +5,8 @@
 }
 /*First Screen*/
 #screen_subheader #grid_container{
-    width: 400px;
-    height: 225px;
+    width: 300px;
+    height: 169px;
     border: 1.5px solid black;
     margin: auto;
     background-color: #ccc;
@@ -108,8 +108,8 @@
 }
 /*Second Screen*/
 #grids{
-    width: 400px;
-    height: 225px;
+    width: 300px;
+    height: 169px;
     border: 1.5px solid black;
     margin: auto;
     background-color: #ccc;
@@ -213,8 +213,8 @@
 }
 /*Screen 3*/
 #grids_container{
-    width: 400px;
-    height: 225px;
+    width: 300px;
+    height: 169px;
     border: 1.5px solid black;
     margin: auto;
     background-color: #ccc;
@@ -237,8 +237,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    padding: .2rem;
-    font-size: 1.3rem;
+    padding: 0 .2rem .3rem 0;
+    font-size: 1rem;
     cursor: pointer;
 }
 #grids_container .first_grid .green{

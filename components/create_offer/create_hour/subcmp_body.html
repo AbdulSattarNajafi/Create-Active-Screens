@@ -27,7 +27,7 @@
   </div>
 </div>
 
-<div class="container mb-3" id="dailyoffer_heading">
+<div class="container" id="dailyoffer_heading">
   <div class="row">
     <div class="col-12 heading_container">
       <div class="text_container">
@@ -35,7 +35,7 @@
         <p>Alternative Name</p>
       </div>
       <div class="image_container">
-        <img src="assets/img/60x60.png" class="img-fluid" alt="image">
+        <img src="https://plchldr.co/i/56x60" class="img-fluid" alt="image">
       </div>
     </div>
   </div>
@@ -45,213 +45,260 @@
   <div class="row">
     <div class="col-12 create_offer">
       <div class="row filldata_row">
-        <label class="col-4 p-0">
-          SKU
-        </label>
-        <div class="col-8 p-0 inputs">
-          <input class="form-control">
+        <div class="col-12 p-0 inputs">
+          <input class="form-control input">
+          <label class="input_label">SKU</label>
         </div>
       </div>
       <div class="row filldata_row">
-        <label class="col-4 p-0">
-          3Hr Offer
-        </label>
-        <div class="col-8 p-0 inputs">
-          <input class="form-control">
+        <div class="col-12 p-0 inputs">
+          <input class="form-control input">
+          <label class="input_label">Daily Offer</label>
         </div>
       </div>
       <div class="row filldata_row">
-        <label class="col-4 p-0">
-          Alt Name
-        </label>
-        <div class="col-8 p-0 inputs">
-          <input class="form-control">
+        <div class="col-12 p-0 inputs">
+          <input class="form-control input">
+          <label class="input_label">Alt Name</label>
         </div>
       </div>
       <div class="row filldata_row">
-        <label class="col-4 p-0">
-          Description
-        </label>
-        <div class="col-8 p-0 inputs">
-          <input class="form-control">
+        <div class="col-12 p-0 inputs">
+          <input class="form-control input">
+          <label class="input_label">Description</label>
         </div>
       </div>
       <div class="row filldata_row">
-        <label class="col-4 p-0">
-          Price
-        </label>
-        <div class="col-8 p-0 inputs">
-          <input class="form-control price_input">
+        <div class="col-12 p-0 inputs">
+          <input class="form-control input price_input">
+          <label class="input_label">Price</label>
         </div>
       </div>
       <div id="earn_points">
         <div class="row filldata_row mr-2">
-          <label class="col-6 p-0">
-            Earn pts
-          </label>
-          <div class="col-6 p-0 inputs">
-            <input class="form-control">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label"><img src="assets/img/earn-points.png" alt=""></label>
           </div>
         </div>
         <div class="row filldata_row ml-2">
-          <label class="col-6 p-0">
-            Spend pts
-          </label>
-          <div class="col-6 p-0 inputs">
-            <input class="form-control">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label"><img src="assets/img/spend-points.png" alt=""></label>
           </div>
         </div>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 1
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-1-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 1</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 2
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-2-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 2</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 3
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-3-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 3</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 4
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-4-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 4</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 5
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-5-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 5</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 6
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-6-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 6</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 7
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-7-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 7</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 8
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-8-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 8</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 9
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-9-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 9</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
-      <div class="row filldata_row">
-        <label class="col-2 p-0">
-          Item 10
-        </label>
-        <div class="col-2 p-0 inputs">
-          <input class="form-control" placeholder="Qty">
+      <!--Item-10-->
+      <div class="fillitems_row">
+        <div class="row filldata_row ml-2" id="quantity">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Qty</label>
+          </div>
         </div>
-        <div class="col-4 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <label class="input_label">Item 10</label>
+          </div>
         </div>
-        <div class="col-3 p-0 inputs">
-          <input class="form-control">
+        <div class="row filldata_row ml-2">
+          <div class="col-12 p-0 inputs">
+            <input class="form-control input">
+            <button class="col-1 input_label create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
+          </div>
         </div>
-        <button class="col-1 create_data_additem_additions btn btn-light" data-toggle="modal" data-target="#modal_additions_content">O+</button>
       </div>
+      <!--End Of Items-->
     </div>
   </div>
 </div>

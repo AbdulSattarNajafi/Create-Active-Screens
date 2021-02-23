@@ -14,10 +14,14 @@ $(document).ready(function(){
     rtl:false,
     nav:false,
     dots:false,
-    items:4,
+    items:3,
     margin:4,
     responsiveClass:true,
     responsive:{
+      420:{
+        items:4,
+        nav:false
+       },
         520:{
             items:5,
             nav:false
@@ -59,7 +63,7 @@ function tableRow() {
   rows.forEach(row => {
     row.addEventListener('click', (e) => {
       let currentRow = e.currentTarget;
-      currentRow.classList.toggle('show_rows')
+      currentRow.classList.add('show_rows')
     })
   })
 }

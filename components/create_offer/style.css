@@ -71,27 +71,44 @@ a{
 }
 /*------------Create Fill Data------------*/
 #create_filldata .create_offer{
-    padding: .4rem .6rem;
-    padding-bottom: 1rem;
+    padding: 0 .6rem;
+    padding-bottom: 1.4rem;
 }
 #create_filldata .create_offer .filldata_row{
     border-bottom: 1.5px solid black;
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -14px;
 }
 #create_filldata .create_offer #earn_points{
     display: flex;
+    margin-top: 5px;
 }
 #create_filldata .create_offer #earn_points .row{
     width: 50%;
 }
+.create_offer .filldata_row .inputs{
+    display: flex;
+    flex-direction: column;
+}
+.create_offer .fillitems_row #quantity{
+    width: 80px;
+}
+.create_offer .filldata_row .inputs label{
+    order: -1;
+    padding-left: 5px;
+    transition: all 0.3s ease-in;
+    transform: translateY(36px);
+    pointer-events: none;
+    font-weight: 600;
+}
 .create_offer .filldata_row .inputs input{
     border: none;
     outline: none;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 5px;
     background-color: transparent;
-}
-.create_offer .filldata_row label{
-    font-weight: 600;
 }
 .create_offer .filldata_row .inputs .price_input{
     font-weight: 600;
@@ -100,11 +117,30 @@ a{
 .create_offer .filldata_row .inputs input:focus{
     box-shadow: none;
 }
+.create_offer .filldata_row .inputs input:focus + label{
+    transform: translateY(16px);
+    font-size: 10px;
+}
+
 .create_offer .filldata_row .create_data_additem_additions{
     background-color: transparent;
     font-weight: 600;
+    border: none;
+    outline: none;
+    box-shadow: none;
     padding-left: 0;
     padding-right: 0;
+    order: -1;
+    padding-left: 5px;
+    transition: all 0.3s ease-in;
+    transform: translateY(36px);
+}
+#create_filldata .create_offer .fillitems_row{
+    display: flex;
+}
+.create_offer .filldata_row .inputs input:focus + .create_data_additem_additions{
+    transform: translateY(16px);
+    font-size: 10px;
 }
 
 /*------------Daily Offer List Fill Data------------*/
@@ -135,8 +171,8 @@ a{
 .cards_container .card .daily_offers .offer .img_container{
     border: 1px solid gray;
     border-radius: 4px;
-    width: 56px;
-    height: 60px;
+    width: 87px;
+    height: 93px;
     background-color: #fff;
     margin-right: 1rem;
 }
@@ -152,8 +188,7 @@ a{
     font-weight: 700;
 }
 .cards_container .card .description{
-    width: calc(100% - 72px);
-    background-color: #eeeeee;
+    width: calc(100% - 101px);
     padding: 0 .2rem;
 }
 .cards_container .card .description p{
@@ -176,12 +211,33 @@ a{
     border: none;
     background-color: transparent;
 }
-#slider_card .image-back .slider-container,
-#slider_card .image-front .slider-container,
-#slider_card .video-front .slider-container{
+#slider_card .slider_title{
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+#slider_card .image-back .slider-container .alert-secondary,
+#slider_card .image-front .slider-container .alert-secondary,
+#slider_card .video-front .slider-container .alert-secondary{
     padding: 0;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     overflow: hidden;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    background-color: transparent;
+}
+#create_filldata_image .filldata_image_container{
+    width: 200px;
+    height: 214px;
+    margin: auto;
+    border: 1.5px solid black;
+    border-radius: 6px;
+}
+#create_filldata_image #btns_wrapper{
+    width: 200px;
+    margin: auto;
+    height: auto;
 }
