@@ -103,6 +103,12 @@
 #screen_table .inputs_container .strip_input{
     width: 38%;
 }
+@media (max-width: 387.98px) {
+    #screen_table .inputs_container .strip_input,
+    #screen_table #labels_container .strip_label{
+        width: 25%;
+    }
+}
 #screen_table .inputs_container .priz_input{
     width: 44px;
 }
