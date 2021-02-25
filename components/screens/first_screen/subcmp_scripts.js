@@ -82,7 +82,7 @@ $('.add_image .carousel_images').slick({
   arrows: false,
   centerMode: true,
   centerPadding: '0px',
-  slidesToShow: 9,
+  slidesToShow: 7,
   autoplay:true,
   vertical: true,
   responsive: [
@@ -92,7 +92,7 @@ $('.add_image .carousel_images').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '0px',
-        slidesToShow: 9,
+        slidesToShow: 7,
         autoplay:true,
         vertical: true,
       }
@@ -103,7 +103,7 @@ $('.add_image .carousel_images').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '0px',
-        slidesToShow: 9,
+        slidesToShow: 7,
         autoplay:true,
         vertical: true,
       }

@@ -64,13 +64,13 @@
 }
 #screen_table #labels_container .priz_label{
     border-bottom: 1px solid black;
-    width: 10%;
+    width: 44px;
     font-weight: 600;
     padding: .4rem 0;
 }
 #screen_table #labels_container .points_label{
     border-bottom: 1px solid black;
-    width: 12%;
+    width: 44px;
     font-weight: 600;
     padding: .4rem 0;
 }
@@ -104,10 +104,10 @@
     width: 38%;
 }
 #screen_table .inputs_container .priz_input{
-    width: 10%;
+    width: 44px;
 }
 #screen_table .inputs_container .points_input{
-    width: 12%;
+    width: 44px;
 }
 #screen_table .inputs_container .image_container{
     width: 76px;
@@ -121,7 +121,7 @@
     position: absolute;
     top: 86px;
     left: -280px;
-    width: 120px;
+    width: 170px;
     background-color: #eeeeee;
     border: 1px solid gray;
     transition: all .6s ease;
@@ -131,6 +131,7 @@
 }
 #screen_subheader #table_wrapper .add_image #close_slider i{
     font-size: 1.2rem;
+    padding: .3rem;
 }
 /*Second Screen*/
 #grids{
