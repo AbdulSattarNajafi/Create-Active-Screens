@@ -70,7 +70,7 @@
 }
 #screen_table #labels_container .points_label{
     border-bottom: 1px solid black;
-    width: 24%;
+    width: 12%;
     font-weight: 600;
     padding: .4rem 0;
 }
@@ -107,7 +107,7 @@
     width: 10%;
 }
 #screen_table .inputs_container .points_input{
-    width: 24%;
+    width: 12%;
 }
 #screen_table .inputs_container .image_container{
     width: 76px;
@@ -121,7 +121,7 @@
     position: absolute;
     top: 86px;
     left: -280px;
-    width: 60px;
+    width: 120px;
     background-color: #eeeeee;
     border: 1px solid gray;
     transition: all .6s ease;
