@@ -77,3 +77,60 @@ $('#edit_btn_container button').click(function(){
     $('#screen_subheader #screen_table').css('border','none');
   }
 });
+//Image Slider
+$('.add_image .carousel_images').slick({
+  arrows: false,
+  centerMode: true,
+  centerPadding: '0px',
+  slidesToShow: 10,
+  autoplay:true,
+  vertical: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 10,
+        autoplay:true,
+        vertical: true,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 12,
+        autoplay:true,
+        vertical: true,
+      }
+    }
+  ],
+  autoplay:false
+});
+//Video
+function addImage() {
+  let imageContainers = document.querySelectorAll('.inputs_container .image_container');
+  const slider = document.querySelector('#table_wrapper .add_image');
+  const closeSliderBtn = document.querySelector('.add_image #close_slider');
+  let images = document.querySelectorAll('.carousel_images .sl_img');
+  imageContainers.forEach(imageContainer => {
+    imageContainer.addEventListener('click', (e) => {
+      let currentContainer = e.currentTarget.childNodes;
+      slider.classList.add('showadd_image');
+      images.forEach(image => {
+        image.addEventListener('click', (e) => {
+          let currentImage = e.currentTarget.src;
+          currentContainer[1].src = currentImage
+        })
+      })
+    })
+  })
+  closeSliderBtn.addEventListener('click', () => {
+    slider.classList.remove('showadd_image');
+  })
+};
+addImage();

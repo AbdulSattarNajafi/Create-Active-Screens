@@ -22,36 +22,42 @@
     background-color: #FFF000;
 }
 /*-------------Offer Lists-------------*/
-#list-data .image_container,
-#daily_active_offers .image_container{
+#list-data #flex_lists,
+#daily_active_offers #flex_lists{
     display: flex;
-    justify-content: center;
-    padding: 0;
 }
-#list-data .image_container .img,
-#daily_active_offers .image_container .img{
+#list-data #flex_lists .image_container,
+#daily_active_offers #flex_lists .image_container{
+    margin-top: 1.4rem;
+}
+#list-data #flex_lists .image_container .img,
+#daily_active_offers #flex_lists .image_container .img{
     width: 61px;
     height: 65px;
     border: 1.5px solid gray;
     border-radius: 4px;
+}
+#list-data #flex_lists .list-offers,
+#daily_active_offers #flex_lists .list-offers{
+    margin-left: .4rem;
+    width: calc(50% - 40px);
 }
 #daily_active_offers .hr_line{
     border-top: 1.5px solid black;
     width: 80%;
     margin: auto;
 }
-.list-offers .list-links{
+#list-data #flex_lists .list-offers h6,
+#daily_active_offers #flex_lists .list-offers h6{
+    font-size: .9rem;
+}
+#flex_lists .list-offers .list-links{
     padding: 0;
     margin: 0;
+    padding-left: .4rem;
     list-style: none;
 }
-#list-data .left_lists{
-    padding-right: .4rem;
-}
-#list-data .right_lists{
-    padding-left: .4rem;
-}
-#list-data .hr_line{
+#list-data #flex_lists .hr_line{
     width: 80%;
     border-top: 1.5px solid black;
     margin: auto;
@@ -107,7 +113,9 @@
     font-weight: bold;
     margin-bottom: 0;
 }
-#activate-offer #activate-toggle .offer-amount{
+#activate-offer #activate-toggle .offer-amount,
+#activate-offer .activate-toggle-pink .offer-amount,
+#activate-offer .activate-toggle-yellow .offer-amount{
     font-style: italic;
     font-style: 14px;
     font-weight: 500;

@@ -2,7 +2,7 @@
   <div class="container" id="screen_subheader">
     <div class="row mt-3">
       <div class="col-12 text-center p-0" id="menu_btns_container">
-        <button type="button" class="btn btn-primary">Breakfast</button>
+        <button type="button" class="btn btn-primary mr-2">Breakfast</button>
         <button type="button" class="btn btn-light">Day Menu</button>
       </div>
     </div>
@@ -11,44 +11,90 @@
         <div id="grids_container">
           <div class="grid_wrapper first_grid">
             <div class="grid green">
-              <p>1</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+                <p>Daily Offer 11</p>
+              </div>
+              <div class="icon">
+                <p>1</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
             <div class="grid green">
-              <p>2</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>2</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
             <div class="grid white">
-              <p>3</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>3</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
             <div class="grid yellow" id="four_grid_areas">
-              <p>4</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>4</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
             <div class="grid white">
-              <p>5</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>5</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
             <div class="grid white">
-              <p>6</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>6</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
           </div>
           <div class="grid_wrapper second_grid">
             <div class="grid white" id="seven_grid_areas">
-              <p>7</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>7</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
           </div>
           <div class="grid_wrapper third_grid">
             <div class="grid white">
-              <p>8</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>8</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
             <div class="grid white">
-              <p>9</p>
-              <p><i class="fas fa-check"></i></p>
+              <div>
+                <p>Grid Area 4</p>
+              </div>
+              <div class="icon">
+                <p>9</p>
+                <p><i class="fas fa-check"></i></p>
+              </div>
             </div>
           </div>
         </div>
@@ -59,8 +105,8 @@
     <!--Daily Offer Buttons-->
     <div class="row mt-3">
       <div class="col-12 p-0 text-center" id="daily_offersbtn_container">
-        <button type="button" class="btn btn-secondary">Daily Offer</button>
-        <button type="button" class="btn btn-light">Just 4 Today</button>
+        <button type="button" class="btn btn-secondary mr-2">Daily Offer</button>
+        <button type="button" class="btn btn-light mr-2">Just 4 Today</button>
         <button type="button" class="btn btn-light">3Hr Offer</button>
       </div>
     </div>
@@ -73,12 +119,12 @@
     <!--Active Daily Offers-->
     <div class="row">
       <div class="col-12" id="active_daily_offers">
+        <h6>Active Daily Offers</h6>
         <div class="offers_header">
-          <h6>Active Daily Offers</h6>
           <div class="image_wrapper mt-2">
             <div>
-              <p>Active: 02-01-21 &nbsp;&nbsp; 10:45</p>
-              <p>Inactive: 03-01-21 &nbsp;&nbsp; 14:45</p>
+              <p class="text-right">Active: 02-01-21 &nbsp;&nbsp; 10:45</p>
+              <p class="text-right">Inactive: 03-01-21 &nbsp;&nbsp; 14:45</p>
             </div>
             <div class="img_container">
               <img src="https://plchldr.co/i/58x62" class="img-fluid" alt="image">
@@ -136,7 +182,7 @@
       </div>
     </div>
     <!--Screen Table-->
-    <div class="row mt-3">
+    <div class="row mt-3" id="table_wrapper">
       <div class="col-12" id="screen_table">
         <p class="label">SubCat 2</p>
         <p class="label">Line 2</p>
@@ -152,7 +198,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 2-->
@@ -167,7 +215,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 3-->
@@ -182,7 +232,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 4-->
@@ -197,7 +249,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 5-->
@@ -212,7 +266,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 6-->
@@ -227,7 +283,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 7-->
@@ -242,7 +300,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 8-->
@@ -257,7 +317,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 9-->
@@ -272,7 +334,9 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--Row 10-->
@@ -287,11 +351,40 @@
             <input type="text" class="strip_input">
             <input type="text" class="priz_input">
             <input type="text" class="points_input">
-            <div class="image_container"></div>
+            <div class="image_container">
+              <img class="img-fluid" src="https://plchldr.co/i/74x37" alt="">
+            </div>
           </div>
         </div>
         <!--End of Rows-->
       </div>
+      <!--Start Of Slider-->
+      <div class="add_image carousel slide" data-ride="carousel">
+        <div id="close_slider" class="text-center"><span><i class="fas fa-times"></i></span></div>
+        <div class="carousel_images" role="listbox">
+          <img class="sl_img" src="assets/img/slider/200x100-1.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-2.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-3.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-4.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-1.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-2.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-3.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-4.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-1.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-2.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-1.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-2.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-3.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-4.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-1.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-2.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-3.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-4.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-1.jpg" alt="" />
+          <img class="sl_img" src="assets/img/slider/200x100-2.jpg" alt="" />
+        </div>
+    </div>
+    <!--End Of Slider-->
     </div>
     <div class="row mt-3" id="edit_btn_container">
       <div class="col-12 text-right p-0">

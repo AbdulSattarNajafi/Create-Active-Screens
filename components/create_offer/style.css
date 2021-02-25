@@ -73,6 +73,7 @@ a{
 #create_filldata .create_offer{
     padding: 0 .6rem;
     padding-bottom: 1.4rem;
+    margin-top: .5rem;
 }
 #create_filldata .create_offer .filldata_row{
     border-bottom: 1.5px solid black;
@@ -93,6 +94,9 @@ a{
 }
 .create_offer .fillitems_row #quantity{
     width: 80px;
+}
+.create_offer .fillitems_row .options{
+    width: 80px!important;
 }
 .create_offer .filldata_row .inputs label{
     order: -1;

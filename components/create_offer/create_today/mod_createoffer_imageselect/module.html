@@ -1,9 +1,10 @@
-<div class="card card-body" style="border: none;">
+<div class="card card-body" id="slider_card">
+  <div class="slider_title">Daily Offer</div>
     <!-- Cart-->
-    <div class="container image-back text-center" style="padding: 0px;">
+    <div class="img_item_slider">
+    <div class="container image-back text-center p-0">
       <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 slider-container" style="overflow: hidden; padding:0 0px; padding-bottom:35px; border:solid 2px #ccc; border-radius:5px;">
+        <div class="col-12 slider-container">
           <div class="alert alert-secondary text-center">1.Choose Background</div>
           <div id="create_backgroundimage" class="carousel slide w-100" data-ride="carousel">
               <div class="carousel-inner w-100" role="listbox">
@@ -22,15 +23,13 @@
               </div>
           </div>
         </div>
-        <div class="col-sm-2"></div>
       </div>
     </div>
     <!-- / Card -->
     <!-- Cart-->
-    <div class="container image-front text-center" style="padding:0px;">
+    <div class="container image-front text-center p-0 mt-3">
       <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 slider-container" style="overflow: hidden; padding:0px 0px;padding-bottom:35px; border:solid 2px #ccc; border-radius:5px;">
+        <div class="col-12 slider-container">
           <div class="alert alert-secondary text-center">2.Choose Menu Image</div>
           <div id="create_itemimage" class="carousel slide w-100" data-ride="carousel">
               <div class="carousel-inner w-100" role="listbox">
@@ -49,33 +48,44 @@
               </div>
           </div>
         </div>
-        <div class="col-sm-2"></div>
       </div>
     </div>
+  </div>
     <!-- / Card -->
-    <div class="container video-back text-center" style="padding:0px;">
+    <div class="vid_item_slider">
+    <div class="container video-front text-center p-0">
       <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 slider-container" style="overflow: hidden; padding:0px 0px;padding-bottom:35px; border:solid 2px #ccc; border-radius:5px;">
+        <div class="col-12 slider-container">
           <div class="alert alert-secondary text-center">Choose Video</div>
-          <div id="create_itemimage" class="carousel slide w-100" data-ride="carousel">
-              <div class="carousel-inner w-100" role="listbox">
-                <img src="assets/img/slider/image-fg-1.png" alt="" />
-                <img src="assets/img/slider/image-fg-2.png" alt="" />
-                <img src="assets/img/slider/image-fg-3.png" alt="" />
-                <img src="assets/img/slider/image-fg-1.png" alt="" />
-                <img src="assets/img/slider/image-fg-2.png" alt="" />
-                <img src="assets/img/slider/image-fg-3.png" alt="" />
-                <img src="assets/img/slider/image-fg-1.png" alt="" />
-                <img src="assets/img/slider/image-fg-2.png" alt="" />
-                <img src="assets/img/slider/image-fg-3.png" alt="" />
-                <img src="assets/img/slider/image-fg-1.png" alt="" />
-                <img src="assets/img/slider/image-fg-2.png" alt="" />
-                <img src="assets/img/slider/image-fg-3.png" alt="" />
-              </div>
-          </div>
+          <div id="create_itemvide" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-videos w-100" role="listbox">
+              <img src="assets/img/slider/image-fg-1.png" alt="" />
+              <img src="assets/img/slider/image-fg-2.png" alt="" />
+              <img src="assets/img/slider/image-fg-3.png" alt="" />
+              <img src="assets/img/slider/image-fg-1.png" alt="" />
+              <img src="assets/img/slider/image-fg-2.png" alt="" />
+              <img src="assets/img/slider/image-fg-3.png" alt="" />
+              <img src="assets/img/slider/image-fg-1.png" alt="" />
+              <img src="assets/img/slider/image-fg-2.png" alt="" />
+              <img src="assets/img/slider/image-fg-3.png" alt="" />
+              <img src="assets/img/slider/image-fg-1.png" alt="" />
+              <img src="assets/img/slider/image-fg-2.png" alt="" />
+              <img src="assets/img/slider/image-fg-3.png" alt="" />
+            </div>
         </div>
-        <div class="col-sm-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container mt-5" id="create_filldata_image">
+      <div class="row">
+        <div class="filldata_image_container">
+          <img class="filldata_image_image img-fluid" src="https://dummyimage.com/200x214/fff/aaa" alt="">
+        </div>
+      </div>
+      <div class="mt-4 text-right p-0" id="btns_wrapper">
+        <button class="btn btn-sm btn-success" id="edit_btn">Edit</button>
+        <button class="btn btn-sm btn-danger">Save</button>
       </div>
     </div>
 
